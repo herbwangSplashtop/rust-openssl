@@ -131,7 +131,7 @@ use crate::error::ErrorStack;
 #[macro_use]
 mod macros;
 
-mod bio;
+pub mod bio;
 #[macro_use]
 mod util;
 pub mod aes;
